@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/add_product"
+        android:title="Add Product"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/delete_all"
+        android:title="Delete All"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"/>
+
+</menu>
